@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>The Top G</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/TheTopG.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
+          <h1 class="logo me-auto me-lg-0"><img src="assets/img/TheTopG.png" alt="" class="img-fluid"><a href="index.html">TheTopG.in</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            
+              
+          </nav><!-- .navbar -->
+
+          <a href="index.html" class="get-started-btn scrollto">Home</a>
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <section class="inner-page" style="margin-top: -10px; background-image: url('assets/img/backgroundpage.png');">
+
+      <header class="section-title">
+        <h2 style="font-size: 36px ; margin-left: 40px; margin-bottom: -10px;" >One-One Consultation</h2>
+        <p></p>
+    </header>
+
+      <div class="container-orange" style="position:relative; padding-bottom: 56.25%; margin-bottom: 20px; border: 8px solid rgb(0, 255, 149); border-radius: 30px;">
+        <iframe src="https://www.youtube.com/embed/-vRE2rqU08s?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%; border-radius: 20px;"></iframe>
+      </div>
+
+      <div class="section-title">
+        <h2 style="font-size: 25px ; margin-left: 40px; ">•To Book Your Slot Pay <span>₹1,499</span> Using The Payment Options Given Below👇</h2>
+        <p style="font-size: 20px ;margin-left: 40px;"><b>After Payment Send Screenshot/Payment Proof On our WhatsApp (button below). Further details will be shared on Whatsapp.</b></p>
+      </div>
+     
+      <div class="d-flex justify-content-center">
+        
+        <button id="paytm-button" class="btn btn-primary paytm-button" style="margin-right: 10px;">
+          <img src="assets/img/paytm-logo.svg" alt="Paytm" width="30" height="30">
+          Paytm
+        </button>
+        
+        <button id="google-pay-button" class="btn btn-primary google-pay-button" style="margin-right: 10px;">
+          <img src="assets/img/google-pay-logo.svg" alt="Google Pay" width="30" height="30">
+          Google Pay
+        </button>
+        
+        <button id="upi-button" class="btn btn-primary upi-button">
+          <img src="assets/img/upi-logo.svg" alt="UPI" width="30" height="30">
+          UPI
+        </button>
+        
+        
+      </div>
+      
+      
+      <div class="d-flex justify-content-center" style="margin-top:10px">
+        <a href="https://wa.me/message/MHWYPC6X4ER5D1">
+          <button class="btn btn-whatsapp">
+            <img src="assets/img/whatsapp-logo.svg" alt="WhatsApp" width="30" height="30">
+            Send Payment Screenshot on WhatsApp
+          </button>
+        </a>
+      </div>
+
+      <script>
+
+        $("#paytm-button").click(function(){
+            console.log("Button clicked!");
+            // create the overlay and insert the image
+            $("body").append("<div class='overlay'><img src='assets/img/paytmpay.png' alt='Paytm' class='popup-img'><div>");
+            // set the background of the overlay to be dark
+            $(".overlay").css("background-color", "rgba(0,0,0,0.5)");
+        
+            $(document).on("click", ".overlay", function(){
+              $(this).remove();
+          });
+          });
+        
+          
+          $("#google-pay-button").click(function(){
+            console.log("Button clicked!");
+            // create the overlay and insert the image
+            $("body").append("<div class='overlay'><img src='assets/img/googlepay.jpeg' alt='Googlepay' class='popup-img'><div>");
+            // set the background of the overlay to be dark
+            $(".overlay").css("background-color", "rgba(0,0,0,0.5)");
+        
+            $(document).on("click", ".overlay", function(){
+              $(this).remove();
+          });
+          });
+        
+          $("#upi-button").click(function(){
+            console.log("Button clicked!");
+            // create the overlay and insert the image
+            $("body").append("<div class='overlay'><img src='assets/img/upipay.jpeg' alt='upi' class='popup-img'><div>");
+            // set the background of the overlay to be dark
+            $(".overlay").css("background-color", "rgba(0,0,0,0.5)");
+        
+            $(document).on("click", ".overlay", function(){
+              $(this).remove();
+          });
+          });
+           </script>
+
+    </section>
+  </main><!-- End #main -->
+
+
+          <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      
+  
+      <div class="container">
+        <h3>TheTopG.in</h3>
+        <p>Become The Top 1%</p>
+        <div class="social-links">
+          
+          
+          <a href="https://www.instagram.com/thetopg.in/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCv9nusE8d60uwCll1cAeLfw" class="youtube"><i class="bx bxl-youtube"></i></a>
+          <a href="https://discord.gg/4vh7VWpQ" class="discord"><i class="bx bi-discord"></i></a>
+        </div>
+        <div class="copyright">
+          &copy; Copyright <strong><span>TheTopG.in</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+    
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+  
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    
+  
+    
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  
+  </body>
+
+</html>
